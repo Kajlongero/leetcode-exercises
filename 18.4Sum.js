@@ -38,7 +38,3 @@ const fourSome = (numbers, target) => {
 
   return Object.values(solutions);
 };
-
-console.log(
-  fourSome([1000000000, 1000000000, 1000000000, 1000000000], -294967296)
-);
