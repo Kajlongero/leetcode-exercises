@@ -22,3 +22,5 @@ const searchInsert = (nums, target) => {
 
   return left;
 };
+
+console.log(searchInsert([1, 2, 3, 5, 6, 8, 9, 10], 7));
