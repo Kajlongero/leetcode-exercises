@@ -3,6 +3,11 @@ function ListNode(val, next) {
   this.next = next === undefined ? null : next;
 }
 
+/**
+ * @param {number[]} list
+ * @return {ListNode}
+ */
+
 const makeNodes = (list = []) => {
   let node = new ListNode(0);
   let current = node;
